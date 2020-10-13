@@ -4,5 +4,11 @@
   "main": "src/index.html",
   "repository": "https://github.com/zimbosaurus/goldengoblin.ga.git",
   "author": "Anton Ekström <anton.e.ekstrom@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html --out-dir build"
+  },
+  "devDependencies": {
+    "sass": "^1.27.0"
+  }
 }
