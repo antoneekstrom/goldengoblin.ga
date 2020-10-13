@@ -6,9 +6,11 @@
   "author": "Anton Ekström <anton.e.ekstrom@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/index.html --out-dir build"
+    "dev": "parcel src/index.html --out-dir build",
+    "build": "parcel build src/index.html --out-dir build --public-url ./"
   },
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "sass": "^1.27.0"
   }
 }
