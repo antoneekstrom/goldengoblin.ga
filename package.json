@@ -1,0 +1,8 @@
+{
+  "name": "goldengoblin.ga",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "repository": "https://github.com/zimbosaurus/goldengoblin.ga.git",
+  "author": "Anton Ekström <anton.e.ekstrom@gmail.com>",
+  "license": "MIT"
+}
